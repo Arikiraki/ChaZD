@@ -19,13 +19,13 @@ var settings = {
     toggleKey : "ctrl",
     showTips : true,                //是否显示 Tips
     currentWord: "",                //当前划词查询的内容
-    linkQuery: false,               //在链接上划词
-    autoAudio: false,               //划词自动发音
-    autoHide: false,                //自动隐藏翻译结果
+    linkQuery: f,               //在链接上划词
+    autoAudio: f,               //划词自动发音
+    autoHide: f,                //自动隐藏翻译结果
     showDuration: 3,                //翻译结果显示持续时间
     defaultVoice: 0,                //划词默认发音：0--真人发音；1--英音；2--美音
-    useHttps: false,                //是否使用 HTTPS 的接口
-    autoLearn:true,                  //是否自动加入生词本
+    useHttps: f,                //是否使用 HTTPS 的接口
+    autoLearn:t,                  //是否自动加入生词本
     apiName:"shanbay"
 };
 var currentSettings = settings;
